@@ -9,7 +9,7 @@ const ReferModal = ({ isOpen, onClose }) => {
     refereeEmail: "",
     course: "",
   });
-  const BaseUrl = import.meta.env.VITE_API_URL;
+  const BaseUrl = import.meta.env.VITE_API_BASE_URL;
   const [loading, setLoading] = useState(false);
 
   if (!isOpen) return null;
