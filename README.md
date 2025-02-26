@@ -44,7 +44,7 @@ npm install
 ### 3️⃣ Set up environment variables
 Create a `.env` file in the root of your project and add the following line:
 ```env
-VITE_API_BASE_URL=http://localhost:5000/api  # Change to your deployed backend URL later
+VITE_API_BASE_URL=http://localhost:5000  # Change to your deployed backend URL later
 ```
 Make sure to set the correct backend API URL for both **development** and **production** environments.
 

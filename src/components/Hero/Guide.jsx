@@ -50,7 +50,7 @@ const Guide = () => {
         {/* Button */}
         <div className="mt-6 md:mt-8 flex justify-center">
           <button
-            className="bg-[#1A73E8] text-white rounded-lg text-lg md:text-[20px] px-5 py-2 md:px-6 md:py-3"
+            className="bg-[#1A73E8] cursor-pointer text-white rounded-lg text-lg md:text-[20px] px-5 py-2 md:px-6 md:py-3"
             onClick={() => setIsModalOpen(true)}
           >
             Refer Now

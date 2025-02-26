@@ -33,7 +33,7 @@ const Hero = () => {
 
           {/* Button */}
           <button
-            className="mt-8 md:mt-16 bg-[#1A73E8] text-white rounded-lg text-lg px-3"
+            className="mt-8 cursor-pointer md:mt-16 bg-[#1A73E8] text-white rounded-lg text-lg px-3"
             style={{
               width: "160px",
               height: "48px",
