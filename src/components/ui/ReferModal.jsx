@@ -9,7 +9,7 @@ const ReferModal = ({ isOpen, onClose }) => {
     refereeEmail: "",
     course: "",
   });
-
+  const BaseUrl = import.meta.env.VITE_API_URL;
   const [loading, setLoading] = useState(false);
 
   if (!isOpen) return null;
@@ -34,7 +34,7 @@ const ReferModal = ({ isOpen, onClose }) => {
     setLoading(true);
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/referral",
+        `${BaseUrl}/api/referral`,
         formData
       );
 
